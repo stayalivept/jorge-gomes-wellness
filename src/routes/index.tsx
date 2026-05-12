@@ -1,26 +1,36 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/landing/Nav";
+import { Hero } from "@/components/landing/Hero";
+import { Approach } from "@/components/landing/Approach";
+import { Stories } from "@/components/landing/Stories";
+import { About } from "@/components/landing/About";
+import { Faq } from "@/components/landing/Faq";
+import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Jorge Gomes — Personal Trainer | Saúde e Longevidade" },
+      {
+        name: "description",
+        content:
+          "Personal trainer focado em perda de peso saudável, sustentável e longevidade. Treinos adaptados, sem extremos, com empatia e resultados reais.",
+      },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="min-h-screen bg-background">
+      <Nav />
+      <Hero />
+      <Approach />
+      <Stories />
+      <About />
+      <Faq />
+      <Footer />
+    </main>
+  );
 }
