@@ -2,14 +2,14 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Reveal } from "./Reveal";
-import s1 from "@/assets/story1.jpg";
-import s2 from "@/assets/story2.jpg";
-import s3 from "@/assets/story3.jpg";
+import s1 from "@/assets/pt_jorgegomes_14050223_000049472.jpg";
+import s2 from "@/assets/pt_jorgegomes_14050223_000130115.jpg";
+import s3 from "@/assets/pt_jorgegomes_14050223_000153965.jpg";
 
 const stories = [
-  { img: s1, name: "Maria, 52", caption: "Recuperou energia, postura e o gosto por caminhar todos os dias." },
-  { img: s2, name: "António, 48", caption: "Perdeu peso de forma sustentável e ganhou mobilidade e confiança." },
-  { img: s3, name: "Sofia, 31", caption: "Aprendeu a treinar sem culpa e a viver com mais leveza." },
+  { img: s1, name: "Manuel", caption: "Menos 9Kg. O Manuel recuperou a energia, a postura e o gosto natural por caminhar todos os dias." },
+  { img: s2, name: "João", caption: "Menos 14Kg em 6 meses! Perdeu peso de forma totalmente sustentável e ganhou uma nova mobilidade e confiança no corpo." },
+  { img: s3, name: "Marta", caption: "Menos 10Kg em 6 meses. A Marta aprendeu finalmente a treinar sem culpa e a gerir a comida com mais leveza mental." },
 ];
 
 export function Stories() {

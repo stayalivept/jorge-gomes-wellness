@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/pt_jorgegomes_14050223_000050966.jpg";
 
 export function Hero() {
   return (
@@ -16,17 +16,17 @@ export function Hero() {
               Saúde sustentável · Longevidade
             </span>
             <h1 className="mt-6 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Transforme a sua vida com saúde, leveza e equilíbrio.
+              O teu peso ideal sem dietas extremas ou culpas. Com acompanhamento real.
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground max-w-xl">
-              Acompanhamento personalizado para uma perda de peso saudável e duradoura — sem sofrimento, sem extremos. Apenas hábitos que duram a vida toda.
+              Recupera a tua energia, mobilidade e autoestima com o lado humano do fitness. Um plano de treino feito à medida da tua vida, e não o contrário.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#contacto"
                 className="inline-flex items-center justify-center rounded-2xl bg-primary px-7 py-4 text-base font-semibold text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:scale-[1.02] hover:bg-[var(--soft-orange-hover)]"
               >
-                Começar a Minha Transformação
+                Quero recuperar a minha Saúde
               </a>
               <a
                 href="#abordagem"
