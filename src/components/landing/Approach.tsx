@@ -1,21 +1,21 @@
-import { Heart, Leaf, Sparkles } from "lucide-react";
+import { Heart, Leaf, Shield } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const items = [
   {
-    icon: Leaf,
-    title: "Treino Adaptado",
-    text: "Planos pensados ao seu ritmo, ao seu corpo e à sua rotina. Sem comparações, sem extremos.",
-  },
-  {
     icon: Heart,
-    title: "Foco na Saúde",
-    text: "Mais energia, melhor postura e longevidade. A balança é apenas um detalhe do caminho.",
+    title: "Sem Julgamentos",
+    text: "Começamos do zero, respeitando o teu corpo, ritmo e limitações.",
   },
   {
-    icon: Sparkles,
-    title: "Resultados Reais",
-    text: "Mudanças sustentáveis que ficam consigo, com hábitos que se mantêm para toda a vida.",
+    icon: Shield,
+    title: "Saúde em Primeiro Lugar",
+    text: "Foco em emagrecimento sustentável para melhorares as tuas análises e reduzires dores.",
+  },
+  {
+    icon: Leaf,
+    title: "Rotina Sustentável",
+    text: "O exercício será a melhor hora do teu dia, sem o sofrimento que te fez desistir no passado.",
   },
 ];
 

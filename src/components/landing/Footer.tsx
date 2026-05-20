@@ -8,19 +8,19 @@ export function Footer() {
         <Reveal>
           <div className="rounded-[2rem] border border-border p-10 text-center shadow-[var(--shadow-soft)]" style={{ background: "var(--gradient-hero)" }}>
             <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              Pronto para começar a sua transformação?
+              É o momento de olhares para ti. Estás pronto(a)?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-              Fale comigo diretamente pelo WhatsApp. Respondo a todas as mensagens pessoalmente.
+              Fala comigo diretamente pelo WhatsApp. Respondo a todas as mensagens pessoalmente.
             </p>
             <a
               href="https://wa.me/351900000000"
               target="_blank"
               rel="noreferrer"
-              className="mt-8 inline-flex items-center justify-center gap-3 rounded-2xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:scale-[1.02] hover:bg-[var(--soft-orange-hover)]"
+              className="mt-8 inline-flex animate-pulse items-center justify-center gap-3 rounded-2xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:scale-[1.02] hover:animate-none hover:bg-[var(--soft-orange-hover)]"
             >
               <MessageCircle className="h-5 w-5" />
-              Falar no WhatsApp
+              Começar a Mudança
             </a>
           </div>
         </Reveal>
@@ -33,9 +33,9 @@ export function Footer() {
             </p>
           </div>
           <div className="space-y-3 text-sm text-muted-foreground">
-            <p className="flex items-center gap-3"><Phone className="h-4 w-4" /> +351 900 000 000</p>
-            <p className="flex items-center gap-3"><Mail className="h-4 w-4" /> ola@jorgegomes.pt</p>
-            <p className="flex items-center gap-3"><MapPin className="h-4 w-4" /> Lisboa · Online</p>
+            <p className="flex items-center gap-3"><Phone className="h-4 w-4" /><span>+351 900 000 000</span></p>
+            <p className="flex items-center gap-3"><Mail className="h-4 w-4" /><span>ola@jorgegomes.pt</span></p>
+            <p className="flex items-center gap-3"><MapPin className="h-4 w-4" /><span>Lisboa · Online</span></p>
           </div>
           <div className="flex items-start md:justify-end">
             <a

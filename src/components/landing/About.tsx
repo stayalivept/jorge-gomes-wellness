@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import jorge from "@/assets/jorge.jpg";
+import jorge from "@/assets/pt_jorgegomes_14050223_000732735.jpg";
 
 export function About() {
   return (
@@ -23,13 +23,13 @@ export function About() {
               Sobre o treinador
             </span>
             <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              Olá, sou o Jorge Gomes.
+              Muito prazer, sou o Jorge Gomes.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-              Há mais de 10 anos que ajudo pessoas comuns a redescobrir o prazer de se moverem e cuidar do seu corpo. Acredito que treinar deve ser um espaço seguro, sem julgamentos e sem extremos.
+              Acredito que o exercício físico deve ser um aliado e nunca um sacrifício. O meu papel é guiar-te passo a passo, garantir que não te lesionas e ajudar a restabelecer a harmonia do corpo.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              O meu método valoriza a empatia, a escuta e os resultados sustentáveis. Mais do que estética, procuro saúde, longevidade e qualidade de vida — para que cada aluno se sinta bem hoje e daqui a 30 anos.
+              Juntos vamos criar hábitos saudáveis para ganhares energia para brincares com os teus filhos e enfrentares a vida mais forte.
             </p>
             <div className="mt-8 grid grid-cols-3 gap-4 max-w-md">
               {[

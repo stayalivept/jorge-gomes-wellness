@@ -5,24 +5,20 @@ import { Reveal } from "./Reveal";
 
 const faqs = [
   {
-    q: "Nunca treinei na vida. É para mim?",
-    a: "Sem dúvida. A maioria dos meus alunos começa do zero. Avaliamos o seu ponto de partida e construímos um plano gradual e seguro, ao seu ritmo.",
+    q: "Nunca pisei num ginásio, este acompanhamento é para mim?",
+    a: "Sim. Tudo é adaptado ao teu ponto de partida. Ensino-te tudo com paciência, passo a passo, sem pressões constantes de performance.",
   },
   {
-    q: "Tenho dores ou alguma limitação. Posso treinar?",
-    a: "Sim. Cada plano é adaptado ao seu corpo, à sua história e às suas limitações. Trabalho frequentemente com pessoas em recuperação ou com dores crónicas.",
-  },
-  {
-    q: "Quanto tempo até ver resultados?",
-    a: "Os primeiros ganhos — energia, sono, postura — costumam aparecer em poucas semanas. As mudanças mais visíveis surgem com consistência, sem pressas nem extremos.",
+    q: "E se eu tiver dores ou lesões passadas?",
+    a: "Terás um plano totalmente adaptado. Iremos trabalhar o reforço e o alívio das tensões antes mesmo de avançar para exercícios mais intensos.",
   },
   {
     q: "Vou ter de fazer dietas restritivas?",
-    a: "Não. O foco está em hábitos sustentáveis, não em dietas radicais. Aprende a comer melhor, sem culpa nem proibições impossíveis de manter.",
+    a: "Não. O foco está em hábitos sustentáveis, não em dietas radicais. Aprendes a comer melhor, sem culpa nem proibições impossíveis de manter.",
   },
   {
     q: "Os treinos são presenciais ou online?",
-    a: "Ofereço ambos os formatos. Falamos primeiro para perceber o que faz mais sentido para a sua rotina e objetivos.",
+    a: "Ofereço ambos os formatos. Falamos primeiro para perceber o que faz mais sentido para a tua rotina e objetivos.",
   },
 ];
 
